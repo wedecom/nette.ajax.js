@@ -1,0 +1,26 @@
+{
+	"name": "wedecom/nette-ajax",
+	"description": "Flexible utility script for AJAX in Nette Framework.",
+	"keywords": ["nette", "extension", "ajax"],
+	"homepage": "https://github.com/vojtech-dobes/nette.ajax.js",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Vojtěch Dobeš",
+			"email": "me@vojtechdobes.com"
+		}
+	],
+	"suggest": {
+		"janmarek/webloader": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"NetteAjax": ""
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.0-dev"
+		}
+	}
+}
